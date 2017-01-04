@@ -24,6 +24,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: #d64937;
+}
+
 main {
     display:flex;
     justify-content:center;
@@ -57,4 +61,8 @@ img.main-img {
     max-height: 300px;
     border-radius: 50%;
     border: 3px solid white;
+}
+
+p.caption {
+    font-size: 0.9rem;
 }
